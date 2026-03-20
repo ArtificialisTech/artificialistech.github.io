@@ -9,7 +9,7 @@ class AppFooter extends HTMLElement {
                 </div>
                 <div class="contact-info">
                     <p data-i18n="navContact" class="contact-title">Contatti</p>
-                    <a href="mailto:artificialis0@gmail.com" class="email-link">artificialis0@gmail.com</a>
+                    <a href="mailto:info@artificialis.it" class="email-link">info@artificialis.it</a>
                 </div>
             </div>
             <div class="footer-bottom" style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; text-align: center;">
