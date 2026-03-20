@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     // Initialize language
-    const savedLang = localStorage.getItem("kira_lang") || 'it';
+    const savedLang = localStorage.getItem("kira_lang") || 'en';
     langSelect.value = savedLang;
     setLanguage(savedLang);
 
