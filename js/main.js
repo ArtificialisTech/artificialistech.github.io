@@ -1,5 +1,6 @@
 import translations from './i18n.js';
-
+import './components/header.js';
+import './components/footer.js';
 document.addEventListener("DOMContentLoaded", () => {
     // --- Language Switcher ---
     const langSelect = document.getElementById('langSelect');
