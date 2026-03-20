@@ -15,7 +15,7 @@ class AppFooter extends HTMLElement {
             <div class="footer-bottom" style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; text-align: center;">
                 <p data-i18n="footerText">© 2026 Artificialis. Tutti i diritti riservati.</p>
                 <div class="legal-info" style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; line-height: 1.6;">
-                    <p><strong>Ragione Sociale:</strong> Artificialis srl | <strong>Partita IVA:</strong> IT03476380732</p>
+                    <p><strong>Artificialis srl</strong> | P. IVA: IT03476380732</p>
                     <p><strong>Sede Legale:</strong> 74123, Via del Tratturello Tarantino, Taranto (TA), Italy</p>
                 </div>
             </div>
