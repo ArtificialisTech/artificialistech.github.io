@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kira AI - Il prodotto di punta di Artificialis per il monitoraggio intelligente e non intrusivo degli anziani.">
+    <title>Kira AI - Artificialis</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22sans-serif%22 font-weight=%22bold%22 fill=%22%232563eb%22>A</text></svg>">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Artificialis Logo" class="brand-logo">
+                <span class="brand">Artificialis</span>
+            </a>
+            
+            <div class="menu-toggle" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html#home" data-i18n="navHome">Home</a>
+                <div class="dropdown">
+                    <a href="index.html#product" class="dropbtn"><span data-i18n="navProduct">Prodotti</span> <span class="caret">▼</span></a>
+                    <div class="dropdown-content">
+                        <a href="kira.html" data-i18n="productKiraName">Kira AI</a>
+                    </div>
+                </div>
+                <a href="index.html#team" data-i18n="navTeam">Chi Siamo</a>
+                <a href="index.html#contact" data-i18n="navContact">Contatti</a>
+                
+                <div class="lang-switcher">
+                    <select id="langSelect" aria-label="Seleziona la lingua">
+                        <option value="it">🇮🇹 ITA</option>
+                        <option value="en">🇬🇧 ENG</option>
+                        <option value="es">🇪🇸 SPA</option>
+                        <option value="fr">🇫🇷 FRA</option>
+                    </select>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Kira Hero Section -->
+    <section class="hero" style="min-height: 50vh; padding-bottom: 50px;">
+        <div class="hero-bg-glow" style="background: radial-gradient(circle at top right, rgba(14, 165, 233, 0.05) 0%, transparent 60%);"></div>
+        <div class="hero-content animate-up" style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <span class="badge" data-i18n="productKiraBadge" style="margin-bottom: 1rem;">Prodotto di punta</span>
+            <h1 data-i18n="productKiraName" style="font-size: 3.8rem; letter-spacing: -1px;">Kira AI</h1>
+            <p class="subtitle" data-i18n="kiraHeroSubtitle" style="font-size: 1.4rem; color: var(--text-main); font-weight: 500;">Niente bracciali. Niente radar costosi. Solo intelligenza visiva allo stato puro per RSA, Ospedali e Home Care.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="products" style="padding-top: 20px;">
+        <div class="section-header animate-up">
+            <h2 data-i18n="featuresTitle">I Pilastri Tecnologici</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="product-highlight animate-up" style="grid-template-columns: 1fr;">
+            <div class="kira-features" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                
+                <!-- Expanded Feature 1 -->
+                <div class="feature-item" style="flex-direction: column; gap: 0.5rem; text-align: left; align-items: flex-start;">
+                    <div class="icon-small" style="width: 55px; height: 55px; font-size: 1.6rem; margin-bottom: 0.5rem; background: rgba(14, 165, 233, 0.1);">🔍</div>
+                    <div>
+                        <strong data-i18n="feat1Title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Rilevamento Cadute Proattivo</strong>
+                        <p data-i18n="feat1Desc" style="line-height: 1.6;">Algoritmi avanzati di Human Pose Estimation e Human Action Recognition lavorano in real-time per segnalare cadute ed eventi critici, permettendo interventi immediati per salvare vite.</p>
+                    </div>
+                </div>
+
+                <!-- Expanded Feature 2 -->
+                <div class="feature-item" style="flex-direction: column; gap: 0.5rem; text-align: left; align-items: flex-start;">
+                    <div class="icon-small" style="width: 55px; height: 55px; font-size: 1.6rem; margin-bottom: 0.5rem; background: rgba(14, 165, 233, 0.1);">🚫⌚</div>
+                    <div>
+                        <strong data-i18n="feat2Title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Assenza totale di Wearables</strong>
+                        <p data-i18n="feat2Desc" style="line-height: 1.6;">Si supera definitivamente il problema della scarsa aderenza (compliance) dei pazienti. Il sistema opera in totale autonomia attraverso webcam commerciali standard.</p>
+                    </div>
+                </div>
+
+                <!-- Expanded Feature 3 -->
+                <div class="feature-item" style="flex-direction: column; gap: 0.5rem; text-align: left; align-items: flex-start;">
+                    <div class="icon-small" style="width: 55px; height: 55px; font-size: 1.6rem; margin-bottom: 0.5rem; background: rgba(14, 165, 233, 0.1);">🛡️</div>
+                    <div>
+                        <strong data-i18n="feat3Title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Protezione Dati & Privacy</strong>
+                        <p data-i18n="feat3Desc" style="line-height: 1.6;">L'architettura estrae solo dati geometrici senza conservare o trasmettere le riprese originali, assicurando il pieno rispetto del GDPR in ogni scenario d'uso.</p>
+                    </div>
+                </div>
+
+                <!-- Expanded Feature 4 -->
+                <div class="feature-item" style="flex-direction: column; gap: 0.5rem; text-align: left; align-items: flex-start;">
+                    <div class="icon-small" style="width: 55px; height: 55px; font-size: 1.6rem; margin-bottom: 0.5rem; background: rgba(14, 165, 233, 0.1);">⚕️</div>
+                    <div>
+                        <strong data-i18n="feat4Title" style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Digital Health & Certificazioni</strong>
+                        <p data-i18n="feat4Desc" style="line-height: 1.6;">Percorso intrapreso verso il TRL 9. L'infrastruttura è progettata per essere certificata come Dispositivo Medico (MDR 2017/745, ISO 13485) e supporta lo standard HL7 per l'invio diretto dei dati nella Cartella Clinica.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="product-highlight animate-up" style="margin-top: 4rem; text-align: left; background: var(--bg-card); display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+            <div>
+                <h2 data-i18n="b2bTitle" style="margin-bottom: 1rem; font-size: 2.2rem;">Due ecosistemi, una sola piattaforma</h2>
+                <p data-i18n="b2bDesc" style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem;">Kira è nato per rivoluzionare sia le dinamiche istituzionali che quelle private.</p>
+                
+                <div style="margin-bottom: 2rem;">
+                    <h3 data-i18n="targetB2bTitle" style="font-size: 1.3rem; color: var(--accent); margin-bottom: 0.5rem;">B2B: RSA, Cliniche e Ospedali</h3>
+                    <p data-i18n="targetB2bDesc" style="line-height: 1.6;">Una dashboard centralizzata per supervisionare simultaneamente più pazienti. Ottimizza il lavoro del personale OSS, riduce i costi infrastrutturali derivanti dalle denunce o dai ricoveri per cadute, arricchendo i flussi di lavoro sanitari.</p>
+                </div>
+
+                <div>
+                    <h3 data-i18n="targetB2cTitle" style="font-size: 1.3rem; color: var(--accent); margin-bottom: 0.5rem;">B2C: Home Care & Famiglie</h3>
+                    <p data-i18n="targetB2cDesc" style="line-height: 1.6;">Un'App portatile e un abbonamento flessibile per garantire autonomia all'utente anziano nella propria abitazione, dando tranquillità e notifiche dirette ai propri familiari in caso di anomalie.</p>
+                </div>
+            </div>
+
+            <div class="product-visual" style="border-left: 1px solid var(--border-color); padding-left: 2rem;">
+                <div class="mockup-placeholder" style="width: 100%;">
+                    <div class="monitor-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="monitor-body" style="padding: 4rem 0;">
+                        <div class="pulse-ring"></div>
+                        <div class="status-texts">
+                            <span class="brand title-sub" style="color:var(--text-main);">Kira<span class="accent" style="color:var(--brand-kira)">AI</span></span>
+                            <span class="status-monitoring" style="color:#10b981; background:rgba(16, 185, 129, 0.1);">System Active</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-content animate-up">
+            <div class="brand-footer">
+                <h3 class="brand">Artificialis</h3>
+                <p class="by-artificialis">Innovating Healthcare.</p>
+            </div>
+            <div class="contact-info">
+                <p data-i18n="navContact" class="contact-title">Contatti</p>
+                <a href="mailto:info@artificialis.com" class="email-link">info@artificialis.com</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footerText">© 2026 Artificialis. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
