@@ -12,9 +12,9 @@
     --accent-light: #60a5fa;
     --accent-glow: rgba(37, 99, 235, 0.15);
     
-    --brand-kira: #0ea5e9;   /* Sky Blue / Teal for AI product */
-    --brand-kira-light: #38bdf8;
-    --brand-kira-glow: rgba(14, 165, 233, 0.15);
+    --brand-protego-care: #0ea5e9;   /* Sky Blue / Teal for AI product */
+    --brand-protego-care-light: #38bdf8;
+    --brand-protego-care-glow: rgba(14, 165, 233, 0.15);
 
     --text-main: #0f172a;    /* Dark Slate */
     --text-muted: #475569;   /* Grey */
@@ -415,7 +415,7 @@ h1, h2, h3, h4 {
 }
 
 /* =========================================
-   PRODUCTS SECTION (Kira Highlight)
+   PRODUCTS SECTION (Protego Care Highlight)
    ========================================= */
 .products {
     padding: 100px 5%;
@@ -463,8 +463,8 @@ h1, h2, h3, h4 {
 .badge {
     padding: 6px 14px;
     background: rgba(14, 165, 233, 0.1);
-    border: 1px solid var(--brand-kira);
-    color: var(--brand-kira);
+    border: 1px solid var(--brand-protego-care);
+    color: var(--brand-protego-care);
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
@@ -479,7 +479,7 @@ h1, h2, h3, h4 {
 }
 
 /* Features List inside Product */
-.kira-features h4 {
+.protego-care-features h4 {
     font-size: 1.3rem;
     margin-bottom: 2rem;
     color: var(--text-main);
@@ -502,7 +502,7 @@ h1, h2, h3, h4 {
     justify-content: center;
     font-size: 1.3rem;
     flex-shrink: 0;
-    color: var(--brand-kira);
+    color: var(--brand-protego-care);
 }
 
 .feature-item strong {
@@ -570,7 +570,7 @@ h1, h2, h3, h4 {
     height: 80px;
     border-radius: 50%;
     background: rgba(14, 165, 233, 0.1);
-    border: 2px solid var(--brand-kira);
+    border: 2px solid var(--brand-protego-care);
     animation: pulse-subtle 2s infinite;
     margin-bottom: 1.5rem;
 }
@@ -638,7 +638,7 @@ h1, h2, h3, h4 {
     font-size: 2.5rem;
     font-weight: 700;
     color: white;
-    background: linear-gradient(135deg, var(--accent), var(--brand-kira));
+    background: linear-gradient(135deg, var(--accent), var(--brand-protego-care));
     box-shadow: var(--shadow-md);
 }
 

@@ -1,6 +1,6 @@
 class AppHeader extends HTMLElement {
     connectedCallback() {
-        const isIndex = !window.location.pathname.includes('kira.html');
+        const isIndex = !window.location.pathname.includes('protego-care.html');
         const homeLink = isIndex ? '#home' : 'index.html#home';
         const productLink = isIndex ? '#product' : 'index.html#product';
         const teamLink = isIndex ? '#team' : 'index.html#team';
@@ -25,7 +25,7 @@ class AppHeader extends HTMLElement {
                     <div class="dropdown">
                         <a href="${productLink}" class="dropbtn"><span data-i18n="navProduct">Prodotti</span> <span class="caret">▼</span></a>
                         <div class="dropdown-content">
-                            <a href="kira.html" data-i18n="productKiraName">Kira AI</a>
+                            <a href="protego-care.html" data-i18n="productProtegoCareName">Protego Care</a>
                         </div>
                     </div>
                     <a href="${teamLink}" data-i18n="navTeam">Chi Siamo</a>

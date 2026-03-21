@@ -18,15 +18,15 @@ const translations = {
         
         // Products Section (Index)
         productsTitle: "I Nostri Prodotti",
-        productKiraName: "Kira AI",
-        productKiraBadge: "Prodotto di punta",
-        productKiraDesc: "La piattaforma ad alto valore tecnologico dedicata alla sicurezza e al monitoraggio proattivo degli anziani, senza l'uso di dispositivi indossabili. Sfrutta algoritmi resilienti di Computer Vision per analizzare in tempo reale i flussi video da normali webcam.",
-        btnDiscoverKira: "Scopri nel dettaglio",
+        productProtegoCareName: "Protego Care",
+        productProtegoCareBadge: "Prodotto di punta",
+        productProtegoCareDesc: "La piattaforma ad alto valore tecnologico dedicata alla sicurezza e al monitoraggio proattivo degli anziani, senza l'uso di dispositivi indossabili. Sfrutta algoritmi resilienti di Computer Vision per analizzare in tempo reale i flussi video da normali webcam.",
+        btnDiscoverProtegoCare: "Scopri nel dettaglio",
         
-        // Kira Details (Kira.html Header)
-        kiraHeroSubtitle: "Niente bracciali. Niente radar costosi. Solo intelligenza visiva allo stato puro per RSA, Ospedali e Home Care.",
+        // Protego Care Details (Protego Care.html Header)
+        protegoCareHeroSubtitle: "Niente bracciali. Niente radar costosi. Solo intelligenza visiva allo stato puro per RSA, Ospedali e Home Care.",
         
-        // Kira Features (Kira.html)
+        // Protego Care Features (Protego Care.html)
         featuresTitle: "I Pilastri Tecnologici",
         feat1Title: "Rilevamento Cadute Proattivo",
         feat1Desc: "Algoritmi avanzati di Human Pose Estimation e Human Action Recognition lavorano in real-time per segnalare cadute ed eventi critici, permettendo interventi immediati per salvare vite.",
@@ -37,9 +37,9 @@ const translations = {
         feat4Title: "Digital Health & Certificazioni",
         feat4Desc: "Percorso intrapreso verso il TRL 9. L'infrastruttura è progettata per essere certificata come Dispositivo Medico (MDR 2017/745, ISO 13485) e supporta lo standard HL7 per l'invio diretto dei dati nella Cartella Clinica Elettronica.",
         
-        // Target Markets (Kira.html)
+        // Target Markets (Protego Care.html)
         b2bTitle: "Due ecosistemi, una sola piattaforma",
-        b2bDesc: "Kira è nato per rivoluzionare sia le dinamiche istituzionali che quelle private.",
+        b2bDesc: "Protego Care è nato per rivoluzionare sia le dinamiche istituzionali che quelle private.",
         targetB2bTitle: "B2B: RSA, Cliniche e Ospedali",
         targetB2bDesc: "Una dashboard centralizzata per supervisionare simultaneamente più pazienti. Ottimizza il lavoro del personale OSS, riduce i costi infrastrutturali derivanti dalle denunce o dai ricoveri per cadute, arricchendo i flussi di lavoro sanitari.",
         targetB2cTitle: "B2C: Home Care & Famiglie",
@@ -72,15 +72,15 @@ const translations = {
         
         // Products Section (Index)
         productsTitle: "Our Products",
-        productKiraName: "Kira AI",
-        productKiraBadge: "Flagship Product",
-        productKiraDesc: "The high-tech platform dedicated to the proactive safety and monitoring of the elderly, without the use of wearable devices. It leverages resilient Computer Vision algorithms to analyze video streams from standard webcams in real time.",
-        btnDiscoverKira: "Discover in detail",
+        productProtegoCareName: "Protego Care",
+        productProtegoCareBadge: "Flagship Product",
+        productProtegoCareDesc: "The high-tech platform dedicated to the proactive safety and monitoring of the elderly, without the use of wearable devices. It leverages resilient Computer Vision algorithms to analyze video streams from standard webcams in real time.",
+        btnDiscoverProtegoCare: "Discover in detail",
         
-        // Kira Details (Kira.html Header)
-        kiraHeroSubtitle: "No bracelets. No expensive radars. Just pure visual intelligence for Nursing Homes, Hospitals, and Home Care.",
+        // Protego Care Details (Protego Care.html Header)
+        protegoCareHeroSubtitle: "No bracelets. No expensive radars. Just pure visual intelligence for Nursing Homes, Hospitals, and Home Care.",
         
-        // Kira Features (Kira.html)
+        // Protego Care Features (Protego Care.html)
         featuresTitle: "Technological Pillars",
         feat1Title: "Proactive Fall Detection",
         feat1Desc: "Advanced Human Pose Estimation and Action Recognition algorithms work in real-time to flag falls and critical events, allowing for immediate life-saving interventions.",
@@ -91,9 +91,9 @@ const translations = {
         feat4Title: "Digital Health & Certifications",
         feat4Desc: "Journeying towards TRL 9. The infrastructure is designed to be certified as a Medical Device (MDR 2017/745, ISO 13485) and supports the HL7 standard for direct data entry into Electronic Health Records.",
         
-        // Target Markets (Kira.html)
+        // Target Markets (Protego Care.html)
         b2bTitle: "Two Ecosystems, One Platform",
-        b2bDesc: "Kira was born to revolutionize both institutional and private care dynamics.",
+        b2bDesc: "Protego Care was born to revolutionize both institutional and private care dynamics.",
         targetB2bTitle: "B2B: Nursing Homes & Hospitals",
         targetB2bDesc: "A centralized dashboard to simultaneously supervise multiple patients. It optimizes staff workflows, drastically reduces infrastructural costs from fallout injuries, and enriches healthcare flows.",
         targetB2cTitle: "B2C: Home Care & Families",
@@ -126,15 +126,15 @@ const translations = {
         
         // Products Section (Index)
         productsTitle: "Nuestros Productos",
-        productKiraName: "Kira AI",
-        productKiraBadge: "Producto Estrella",
-        productKiraDesc: "La plataforma de alta tecnología dedicada a la seguridad y monitorización proactiva de los mayores, sin el uso de dispositivos portátiles. Utiliza algoritmos resilientes de Visión por Computadora para analizar flujos de video de cámaras web estándar en tiempo real.",
-        btnDiscoverKira: "Descubre en detalle",
+        productProtegoCareName: "Protego Care",
+        productProtegoCareBadge: "Producto Estrella",
+        productProtegoCareDesc: "La plataforma de alta tecnología dedicada a la seguridad y monitorización proactiva de los mayores, sin el uso de dispositivos portátiles. Utiliza algoritmos resilientes de Visión por Computadora para analizar flujos de video de cámaras web estándar en tiempo real.",
+        btnDiscoverProtegoCare: "Descubre en detalle",
         
-        // Kira Details (Kira.html Header)
-        kiraHeroSubtitle: "Sin pulseras. Sin radares costosos. Simplemente pura inteligencia visual para Residencias, Hospitales y Atención Domiciliaria.",
+        // Protego Care Details (Protego Care.html Header)
+        protegoCareHeroSubtitle: "Sin pulseras. Sin radares costosos. Simplemente pura inteligencia visual para Residencias, Hospitales y Atención Domiciliaria.",
         
-        // Kira Features (Kira.html)
+        // Protego Care Features (Protego Care.html)
         featuresTitle: "Pilares Tecnológicos",
         feat1Title: "Detección Proactiva de Caídas",
         feat1Desc: "Algoritmos avanzados de Estimación de Postura y Reconocimiento de Acción trabajan en tiempo real para señalar caídas y eventos críticos, permitiendo intervenciones inmediatas que salvan vidas.",
@@ -145,9 +145,9 @@ const translations = {
         feat4Title: "Salud Digital y Certificaciones",
         feat4Desc: "Avanzando hacia el nivel TRL 9. La infraestructura está diseñada para certificarse como Dispositivo Médico (MDR 2017/745, ISO 13485) y es compatible con el estándar HL7 para enviar datos directamente al Registro Médico Electrónico.",
         
-        // Target Markets (Kira.html)
+        // Target Markets (Protego Care.html)
         b2bTitle: "Dos ecosistemas, una plataforma",
-        b2bDesc: "Kira nació para revolucionar tanto la dinámica institucional como la privada.",
+        b2bDesc: "Protego Care nació para revolucionar tanto la dinámica institucional como la privada.",
         targetB2bTitle: "B2B: Residencias y Hospitales",
         targetB2bDesc: "Un panel de control centralizado para supervisar simultáneamente a múltiples pacientes. Optimiza el trabajo del personal, reduce drásticamente los costos de infraestructura por incidentes y enriquece los flujos de salud.",
         targetB2cTitle: "B2C: Atención Domiciliaria y Familias",
@@ -180,15 +180,15 @@ const translations = {
         
         // Products Section (Index)
         productsTitle: "Nos Produits",
-        productKiraName: "Kira AI",
-        productKiraBadge: "Produit Phare",
-        productKiraDesc: "La plateforme de haute technologie dédiée à la sécurité et à la surveillance proactive des personnes âgées, sans l'utilisation d'appareils portables. Elle utilise des algorithmes résilients de Vision par Ordinateur pour analyser en temps réel les flux vidéo des webcams standard.",
-        btnDiscoverKira: "Découvrir en détail",
+        productProtegoCareName: "Protego Care",
+        productProtegoCareBadge: "Produit Phare",
+        productProtegoCareDesc: "La plateforme de haute technologie dédiée à la sécurité et à la surveillance proactive des personnes âgées, sans l'utilisation d'appareils portables. Elle utilise des algorithmes résilients de Vision par Ordinateur pour analyser en temps réel les flux vidéo des webcams standard.",
+        btnDiscoverProtegoCare: "Découvrir en détail",
         
-        // Kira Details (Kira.html Header)
-        kiraHeroSubtitle: "Pas de bracelets. Pas de radars coûteux. Juste de l'intelligence visuelle pure pour les Maisons de Retraite, les Hôpitaux et les Soins à Domicile.",
+        // Protego Care Details (Protego Care.html Header)
+        protegoCareHeroSubtitle: "Pas de bracelets. Pas de radars coûteux. Juste de l'intelligence visuelle pure pour les Maisons de Retraite, les Hôpitaux et les Soins à Domicile.",
         
-        // Kira Features (Kira.html)
+        // Protego Care Features (Protego Care.html)
         featuresTitle: "Les Piliers Technologiques",
         feat1Title: "Détection Proactive des Chutes",
         feat1Desc: "Des algorithmes avancés d'Estimation de la Posture et de Reconnaissance de l'Action travaillent en temps réel pour signaler les chutes et les événements critiques, permettant des interventions immédiates pour sauver des vies.",
@@ -199,9 +199,9 @@ const translations = {
         feat4Title: "Santé Numérique et Certifications",
         feat4Desc: "En route vers le niveau TRL 9. L'infrastructure est conçue pour être certifiée comme Dispositif Médical (MDR 2017/745, ISO 13485) et prend en charge la norme HL7 pour l'envoi direct de données au Dossier Médical Électronique.",
         
-        // Target Markets (Kira.html)
+        // Target Markets (Protego Care.html)
         b2bTitle: "Deux Écosystèmes, Une Plateforme",
-        b2bDesc: "Kira est né pour révolutionner les dynamiques institutionnelles et privées.",
+        b2bDesc: "Protego Care est né pour révolutionner les dynamiques institutionnelles et privées.",
         targetB2bTitle: "B2B : Maisons de Retraite et Hôpitaux",
         targetB2bDesc: "Un tableau de bord centralisé pour superviser simultanément plusieurs patients. Il optimise le travail du personnel, réduit considérablement les coûts d'infrastructure liés aux incidents et enrichit les flux cliniques sanitaires.",
         targetB2cTitle: "B2C : Soins à Domicile et Familles",

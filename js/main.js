@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
         
-        localStorage.setItem("kira_lang", lang);
+        localStorage.setItem("protegocare_lang", lang);
     };
 
     // Initialize language
-    const savedLang = localStorage.getItem("kira_lang") || 'en';
+    const savedLang = localStorage.getItem("protegocare_lang") || 'en';
     langSelect.value = savedLang;
     setLanguage(savedLang);
 
